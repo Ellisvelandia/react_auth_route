@@ -55,7 +55,7 @@ $nunito-font: 'Nunito', sans-serif;
 }
 
 .title {
-  color: #000;
+  color: #fff;
   font-family: $nunito-font;
   font-weight: 600;
   text-align: center;
@@ -68,7 +68,7 @@ $nunito-font: 'Nunito', sans-serif;
 }
 
 .subtitle {
-  color: #000;
+  color: #fff;
   font-family: $nunito-font;
   font-weight: 400;
   text-align: center;
@@ -80,10 +80,10 @@ $nunito-font: 'Nunito', sans-serif;
 .btn-back {
   position: absolute;
   left: 50%;
-  top: 67%;
+  top: 68%;
   transform: translate(-50%, -50%);
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #fff;
+  color: #fff;
   padding: 12px;
   font-family: $nunito-font;
   text-decoration: none;

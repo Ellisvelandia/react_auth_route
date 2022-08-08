@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import './Styled/Login.scss';
 
 const Login = ({ setUser }) => {
   const [name, setName] = useState("");
@@ -17,7 +18,7 @@ const Login = ({ setUser }) => {
   return (
     <section className="section">
       <form className="form" onSubmit={handleSubmit}>
-        <h5>login</h5>
+        <h5 className="Title">login</h5>
         <div className="form-row">
           <label htmlFor="name" className="form-label">
             name
