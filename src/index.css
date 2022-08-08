@@ -250,15 +250,3 @@ ul {
 .active {
   color: var(--primary-100);
 }
-.products article {
-  margin-bottom: 1rem;
-}
-
-.products h5 {
-  margin-bottom: 0;
-}
-
-.product img {
-  width: 200px;
-  height: 150px;
-}
